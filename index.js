@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 
 //Internal Packages
-import connectDB from './mongodb/connect.js';
+import connectDB from './mongoDB/connect.js';
 import postRoutes from './routes/postRoutes.js';
 import dalleRoutes from './routes/dalleRoutes.js';
 
